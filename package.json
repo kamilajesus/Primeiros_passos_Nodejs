@@ -1,17 +1,19 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "LinkVerify",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lib que verifica links de um texto, e diz se ele está válido ou não.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js ./arquivos/texto.md",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
   },
-  "keywords": [],
+  "keywords": ["verificação", "URLs", "texto"],
   "author": "",
   "license": "ISC",
   "bugs": {
